@@ -1,6 +1,6 @@
-import {createToggleRouter} from "./toggleRouter";
-import {createFeatureDecisions} from "./featureDecision";
-const featureConfig = require("./config.json");
+import {createToggleRouter} from "../toggleRouter";
+import {createFeatureDecisions} from "../featureDecision";
+const featureConfig = require("../config.json");
 
 const features = createToggleRouter(featureConfig);
 const featureDecisions = createFeatureDecisions(features);

@@ -1,7 +1,7 @@
 import { inputBabyDetailsOf } from "./index";
-import {createToggleRouter} from "./toggleRouter";
-const featureConfig = require("./config.json");
-const babyList = require("./baby-data.json");
+import {createToggleRouter} from "../toggleRouter";
+const featureConfig = require("../config.json");
+const babyList = require("../baby-data.json");
 
 describe("Test inputBabyDetailsFrom function", () => {
   let toggleRouter: any;
