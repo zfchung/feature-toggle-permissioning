@@ -1,4 +1,4 @@
-import { includeBabyDetailsOf } from "./index";
+import { inputBabyDetailsOf } from "./index";
 import {createToggleRouter} from "./toggleRouter";
 const featureConfig = require("./config.json");
 const babyList = require("./baby-data.json");
@@ -14,9 +14,20 @@ describe("Test inputBabyDetailsFrom function", () => {
     // Given
     toggleRouter.setFeature("include-baby-weight", false);
     // When
-    const babyName = babyList
-    const result = includeBabyDetailsOf(babyName.Anatasia);
-    const expectedResult = "female";
+    const babyAnatasia = babyList.Anatasia
+    const result = inputBabyDetailsOf(babyAnatasia);
+    const expectedResult = ["female"];
+    // Then
+    expect(result).toEqual(expectedResult);
+  });
+
+  it("should works correctly with new algorithm", () => {
+    // Given
+    toggleRouter.setFeature("include-baby-weight", true);
+    // When
+    const babyAnatasia = babyList.Anatasia
+    const result = inputBabyDetailsOf(babyAnatasia);
+    const expectedResult = ["female", 3.4];
     // Then
     expect(result).toEqual(expectedResult);
   });
