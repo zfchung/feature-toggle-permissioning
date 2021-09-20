@@ -1,3 +1,3 @@
-export function add(input: string): number {
+export function includeBabyDetailsOf(input: string) {
     return 0;
 }

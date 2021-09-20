@@ -1,0 +1,14 @@
+{
+    "Lucifer": {
+        "gender": "male",
+        "height": 0.50,
+        "weight": 3.6,
+        "dateOfBirth": "1-Jan-2021"
+    },
+    "Anatasia": {
+        "gender": "female",
+        "height": 0.49,
+        "weight": 3.4,
+        "dateOfBirth": "2-Feb-2021"
+    }
+}
