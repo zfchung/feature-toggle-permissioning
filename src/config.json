@@ -1,3 +1,6 @@
 {
-  "include-baby-weight": true
+  "include-baby-weight": {
+    "enabled": true,
+    "userList": ["zchung1", "alicew"]
+  }
 }
