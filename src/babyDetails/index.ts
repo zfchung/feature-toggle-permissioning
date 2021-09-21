@@ -1,12 +1,12 @@
 import {createToggleRouter} from "../toggleRouter";
-import {createFeatureDecisions} from "../featureDecision";
+import {createFeatureService} from "../featureService";
 const featureConfig = require("../config.json");
 
 const features = createToggleRouter(featureConfig);
-const featureDecisions = createFeatureDecisions(features);
+const featureService = createFeatureService(features);
 
 export function inputBabyDetailsOf(babyName: string) {
-    if (featureDecisions.includeWeightInBabyDetails()){
+    if (featureService.includeWeightInBabyDetails()){
         return newInputBabyDetailsOf(babyName);
     } else {
         return oldInputBabyDetailsOf(babyName);

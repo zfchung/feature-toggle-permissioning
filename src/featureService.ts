@@ -1,4 +1,4 @@
-export function createFeatureDecisions(features: any){
+export function createFeatureService(features: any){
     return {
         includeWeightInBabyDetails(){
             // check for user permissions
