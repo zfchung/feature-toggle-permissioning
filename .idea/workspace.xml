@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="40e745e9-2b18-4c2c-b985-c920a86a06d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/babyDetails/index.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/babyDetails/index.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/babyDetails/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/babyDetails/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featureDecision.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/featureDecision.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yNsZdQiu4Nv31VBe1u34U6EG8I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
