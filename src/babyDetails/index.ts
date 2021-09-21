@@ -1,6 +1,6 @@
-import {createToggleRouter} from "../toggleRouter";
+import {createToggleRouter} from "../featureService/toggleRouter";
 import {createFeatureService} from "../featureService/featureService";
-const featureConfigList = require("../config.json");
+const featureConfigList = require("../featureService/featureConfig.json");
 const featureConfig = featureConfigList.featureList;
 
 const features = createToggleRouter(featureConfig);

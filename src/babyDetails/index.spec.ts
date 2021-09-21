@@ -1,6 +1,6 @@
 import { inputBabyDetailsOf } from "./index";
-import {createToggleRouter} from "../toggleRouter";
-const featureConfigList = require("../config.json");
+import {createToggleRouter} from "../featureService/toggleRouter";
+const featureConfigList = require("../featureService/featureConfig.json");
 const featureConfig = featureConfigList.featureList;
 const babyList = require("../baby-data.json");
 
