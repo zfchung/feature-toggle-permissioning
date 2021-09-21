@@ -8,11 +8,14 @@ function getUserAllowedFeatures(userID: string): string[] {
 const featureOpenForUser = getUserAllowedFeatures(USER_ID_SESSION);
 const featureList: object = featureConfig.featureList;
 
+
+
 const filtered = Object.fromEntries(
     Object.entries(featureList).filter(
         ([key, val])=>featureOpenForUser.includes(key)
     )
 );
 
-
-console.log("filtered",filtered);
+export function getFeaturesByUserPermission(){
+    return filtered;
+}

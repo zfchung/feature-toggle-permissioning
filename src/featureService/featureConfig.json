@@ -9,7 +9,6 @@
       "include-baby-weight"
     ],
     "randomUser": [
-      "include-baby-weight",
       "include-baby-dateOfBirth",
       "include-baby-nationality"
     ]

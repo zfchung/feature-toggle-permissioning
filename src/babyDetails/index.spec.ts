@@ -1,7 +1,7 @@
 import { inputBabyDetailsOf } from "./index";
 import {createToggleRouter} from "../featureService/toggleRouter";
-const featureConfigList = require("../featureService/featureConfig.json");
-const featureConfig = featureConfigList.featureList;
+import {getFeaturesByUserPermission} from "../featureService/toggleByUser";
+const featureConfig = getFeaturesByUserPermission();
 const babyList = require("../baby-data.json");
 
 describe("Test inputBabyDetailsFrom function", () => {
