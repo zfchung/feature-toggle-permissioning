@@ -1,4 +1,4 @@
-const featureConfig = require("./featureConfig.json");
+const featureConfig = require("../featureConfig.json");
 const USER_ID_SESSION = "randomUser"; // userid of person logged in
 
 function getUserAllowedFeatures(userID: string): string[] {

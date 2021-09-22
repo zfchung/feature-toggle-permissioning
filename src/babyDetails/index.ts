@@ -1,6 +1,6 @@
 import {createToggleRouter} from "../featureService/toggleRouter";
 import {createFeatureService} from "../featureService/featureService";
-import {getFeaturesByUserPermission} from "../featureService/toggleByUser";
+import {getFeaturesByUserPermission} from "../featureService/toggleByParameter/toggleByUser";
 const featureConfig = getFeaturesByUserPermission();
 const features = createToggleRouter(featureConfig);
 const featureService = createFeatureService(features);
