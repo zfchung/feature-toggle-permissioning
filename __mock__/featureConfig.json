@@ -1,8 +1,7 @@
 {
   "defaults": {
     "include-baby-weight": false,
-    "include-baby-dateOfBirth": false,
-    "include-baby-nationality": false
+    "include-baby-dateOfBirth": false
   },
   "groups": {
     "admin": {
@@ -18,7 +17,7 @@
       "include-baby-weight": false
     },
     "developers": {
-      "include-baby-weight": false
+      "include-baby-weight": true
     }
   },
   "users": {

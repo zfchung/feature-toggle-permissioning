@@ -6,19 +6,19 @@
   },
   "groups": {
     "admin": {
-      "include-baby-weight": false
+      "include-baby-dateOfBirth": false
     },
     "support": {
-      "include-baby-weight": false
+      "include-baby-dateOfBirth": false
     },
     "business": {
-      "include-baby-weight": false
+      "include-baby-dateOfBirth": false
     },
     "qa": {
-      "include-baby-weight": false
+      "include-baby-dateOfBirth": false
     },
     "developers": {
-      "include-baby-weight": false
+      "include-baby-weight": true
     }
   },
   "users": {

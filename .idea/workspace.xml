@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40e745e9-2b18-4c2c-b985-c920a86a06d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/featureService/toggleByParameter/toggleByGroups/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user-group-list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mock__/featureConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/__mock__/featureConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featureService/featureConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/featureService/featureConfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featureService/toggleByParameter/index.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/featureService/toggleByParameter/index.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featureService/toggleByParameter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/featureService/toggleByParameter/index.ts" afterDir="false" />
     </list>
@@ -58,6 +62,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/featureService/toggleByParameter" />
       <recent name="$PROJECT_DIR$/src/featureService" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/featureService/toggleByParameter/getFeatureListByGroups/index.ts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
