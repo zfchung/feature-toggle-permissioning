@@ -23,7 +23,8 @@
   },
   "users": {
     "zchung1": {
-      "include-baby-weight": true
+      "include-baby-weight": true,
+      "include-baby-nationality": true
     },
     "lucas123": {
       "include-baby-weight": true
