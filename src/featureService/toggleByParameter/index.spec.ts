@@ -32,7 +32,7 @@ describe("test getFeatureList function", () => {
         // Given user has individual config
         const userId = "zchung1"
         const expectedResult = {
-            "include-baby-weight": true,
+            "include-baby-weight": false,
             "include-baby-dateOfBirth": false,
             "include-baby-nationality": true
         };
